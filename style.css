@@ -1,0 +1,41 @@
+* {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.textUnderTheQr {
+  margin: 10px;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+.whiteCard {
+  background-color: hsl(0, 0%, 100%);
+  width: 324px;
+  height: 500px;
+  padding-top: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  margin-top: 10%; /*z wyśrodkowaniem tego obrazka miałem wielki problem, 
+    więc doszedłem do tego metodą prób i błedów, ale pewnie jest jakieś inne prostsze rozwiązanie */
+  border-radius: 12px;
+}
+
+img {
+  border-radius: 12px;
+  /*padding: 15px;*/
+  width: 300px;
+  height: 300px;
+}
